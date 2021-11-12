@@ -1,0 +1,26 @@
+#UserTable {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 5px;
+}
+
+#UserEntry {
+  border: solid;
+  border-radius: 5px;
+
+  .userName {
+    text-align: center;
+  }
+}
+
+#UserEntry:hover {
+  cursor: pointer;
+}
+
+#PostEntry {
+  border: solid;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+}

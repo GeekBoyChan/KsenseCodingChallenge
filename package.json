@@ -1,0 +1,66 @@
+{
+  "name": "CodingChallenge",
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/setup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "Ksense Technology Group",
+  "main": "index.js",
+  "eslintConfig": {
+    "extends": "airbnb"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "webpack"
+  },
+  "author": "Chandler Ocapan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
+    "babel-laoder": "^0.0.1-security",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^26.6.3",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel": "^6.23.0",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "body-parser": "^1.19.0",
+    "css-loader": "^5.1.1",
+    "enzyme": "^3.11.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6.0",
+    "pg": "^8.5.1",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-transition-group": "^4.4.2",
+    "save-dev": "^0.0.1-security",
+    "style-loader": "^2.0.0"
+  }
+}
